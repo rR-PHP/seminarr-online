@@ -65,27 +65,31 @@
 
 
     <!-- Formulir Pendaftaran -->
-    <section id="registration">
-        <div class="container">
-            <h2 class="text-center mb-5">Daftar Sekarang!</h2>
-            <div class="card mx-auto" style="max-width: 600px;">
-                <div class="card-body">
-                    <h5 class="card-title text-center mb-4">Formulir Pendaftaran</h5>
-                    <form id="registrationForm">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Nama Lengkap</label>
-                            <input type="text" class="form-control" id="name" placeholder="Masukkan nama lengkap Anda" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda" required>
-                        </div>
-                        <button type="button" class="btn btn-primary w-100 py-2" onclick="validateForm()">Daftar Sekarang</button>
-                    </form>
-                </div>
+<!-- Formulir Pendaftaran -->
+<section id="registration">
+    <div class="container">
+        <h2 class="text-center mb-5">Daftar Sekarang!</h2>
+        <div class="card mx-auto" style="max-width: 600px;">
+            <div class="card-body">
+                <h5 class="card-title text-center mb-4">Formulir Pendaftaran</h5>
+                <form id="registrationForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="name" placeholder="Masukkan nama lengkap Anda" required>
+                        <div id="nameError" class="invalid-feedback">Nama lengkap wajib diisi.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda" required>
+                        <div id="emailError" class="invalid-feedback">Harap masukkan email yang valid.</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 py-2">Daftar Sekarang</button>
+                </form>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
 
     <!-- Footer -->
