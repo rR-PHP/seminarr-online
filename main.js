@@ -1,4 +1,3 @@
-function validateForm() 
 // Mendapatkan elemen-elemen dari form
 const form = document.getElementById("registrationForm");
 const nameField = document.getElementById("name");

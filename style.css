@@ -31,6 +31,19 @@ h2 {
     height: 150px;
 }
 
+.is-invalid {
+    border-color: #dc3545; /* Merah untuk input yang salah */
+}
+
+.invalid-feedback {
+    display: none;
+    color: #dc3545; /* Merah untuk pesan kesalahan */
+}
+
+.is-invalid + .invalid-feedback {
+    display: block;
+}
+
 
 footer {
     font-size: 0.9em;
