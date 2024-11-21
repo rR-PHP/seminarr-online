@@ -1,0 +1,40 @@
+/* Tambahan gaya untuk memperindah */
+body {
+    background-image: url(https://files.oaiusercontent.com/file-22Mn6RVOz75rIgdtFeHEPUFd?se=2024-11-21T07%3A49%3A21Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D987296f4-2d82-408e-bac4-f28b0667f4dd.webp&sig=6uP1xzNen/ezyhg1wVRTd395eYAhCSBCmyNadMdo4dY%3D);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7); /* Slight white overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    color: #333;
+}
+
+
+#description, #registration {
+    padding: 60px 0;
+}
+
+
+#speakers img {
+    width: 150px;
+    height: 150px;
+}
+
+
+footer {
+    font-size: 0.9em;
+}
+
+
+
